@@ -18,7 +18,7 @@ jobs:
        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       
     - name: Build the new release :latest
-      run: docker build -t hosniah/assurances-app:3.0 .
+      run: docker build -t frajbenkahla/testbk:v1.3 .
 
     - name: Push to docker hub :latest
       uses: actions-hub/docker@master
